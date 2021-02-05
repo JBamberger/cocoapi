@@ -1,5 +1,6 @@
 from setuptools import setup, Extension
-from distutils.command.build_ext import build_ext
+# from distutils.command.build_ext import build_ext
+from Cython.Distutils import build_ext
 import numpy as np
 
 # To compile and install locally run "python setup.py build_ext --inplace"
